@@ -3914,7 +3914,9 @@ input, select, textarea {
 					}
 
 				@media screen and (max-width: 480px) {
-
+					#banner {
+						height: 100vh;
+					}
 					#footer .copyright li {
 						border: 0;
 						display: block;
