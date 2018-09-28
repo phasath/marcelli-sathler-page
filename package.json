@@ -1,25 +1,25 @@
 {
-    "name": "marcelli-satler-page",
-    "version": "1.0.0",
-    "description": "Webpage pessoal de marcelli Sathler",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:phasath/marcelli-sathler-page"
-    },
-    "keywords": [
-      "Marcelli Sathler",
-      "Sathler",
-      "Github"
-    ],
-    "author": "Raphael Sathler",
-    "license": "ISC",
-    "dependencies": {
-      "compression": "^1.7.3",
-      "express": "^4.16.3"
-    }
+  "name": "marcelli-satler-page",
+  "version": "1.0.0",
+  "description": "Webpage pessoal de marcelli Sathler",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:phasath/marcelli-sathler-page"
+  },
+  "keywords": [
+    "Marcelli Sathler",
+    "Sathler",
+    "Github"
+  ],
+  "author": "Raphael Sathler",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.3"
+  }
 }
