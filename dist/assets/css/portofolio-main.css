@@ -1299,7 +1299,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+			#viewer .slide .image { 
+				background-size: contain;
+			}
 			#viewer {
 				-moz-transition: opacity 0.5s ease;
 				-webkit-transition: opacity 0.5s ease;
