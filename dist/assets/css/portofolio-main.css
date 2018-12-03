@@ -963,7 +963,7 @@ input, select, textarea {
 				position: relative;
 				border: 0;
 				outline: 0;
-				width: 120px;
+				width: 100%;
 				height: 80px;
 			}
 
@@ -1002,6 +1002,10 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
+			
+			#thumbnails article .thumbnail {
+				height: 110px;
+			}
 
 			#thumbnails article .thumbnail:before {
 				display: none;
@@ -1252,6 +1256,12 @@ input, select, textarea {
 
 		body.is-preload-2 #viewer .slide {
 			opacity: 0;
+		}
+
+		@media screen and (min-width: 1366px) {
+			#thumbnails article .thumbnail {
+				height: 110px;
+			}
 		}
 
 		@media screen and (max-width: 1280px) {
