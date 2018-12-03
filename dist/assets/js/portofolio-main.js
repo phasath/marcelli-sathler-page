@@ -5,15 +5,11 @@
 */
 
 function writeImages() {
-	console.log('here')
 	//Retrieve all the files from the FileList object
 	let imagesDiv = $('#thumbnails')
 	for (var i = 1; i <= numImages; i++) {
 		$(imagesDiv).append('	<article>\
-									<a class="thumbnail" href="images/fulls/' + i + '.jpg" data-position="left center"><img src="images/thumbs/' + i + '.jpg" alt="" /></a>\
-									<h2>Diam tempus accumsan</h2>\
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
-								</article>'
+									<a class="thumbnail" href="images/fulls/' + i + '.jpg" data-position="left center"><img src="images/fulls/' + i + '.jpg" alt="" /></a></article>'
 		);
 	}
 }
